@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Daphnae Paler</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>As a freelance artist, I find joy and fulfillment in the creation of both traditional and digital artworks, each stroke and pixel contributing to my expression of creativity. Beyond my artistic endeavors, I immerse myself in the world of gaming, finding inspiration and relaxation in virtual landscapes. Yet, my passion extends beyond the canvas and screen—I am deeply committed to expanding my horizons in the realms of technology and coding. JavaScript, HTML, and CSS have become my chosen languages of expression, as I eagerly absorb knowledge and strive to master their intricacies. With an insatiable thirst for learning, I am dedicated to exploring all facets of technology that hold promise for our future generations, believing that every new skill acquired is a step toward shaping a brighter tomorrow.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Traditional and Digital creations</h3>
+                    <p>Explore a captivating collection of art projects spanning traditional and digital mediums, each piece a unique expression of creativity and emotion.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Tech related Colletion</h3>
+                    <p>Tech exploration zone: diving into coding with JavaScript, HTML, and CSS, fueled by curiosity and passion..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Daphnae Paler</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
